@@ -1,0 +1,70 @@
+Bdata notes :
+
+lecture 1
+__________________________________ 
+datatypes :
+	structured :SQL 
+	unstructured : clear text
+	semi-structured  XML
+
+	in hadoop we can deal with all the types 
+
+	hadoop components : 
+	1 apache hive , apache Pig , apache Spark
+
+	web1: static websites 
+	web2: dynamic website
+	web3: user-generated content (wikipedia,twitter)
+
+	challeneges : 
+	1 : storing huge data
+	2 : processing huge data 
+
+	the idea behind hadoop : storing and retrieving data from big data repo
+	scalling up : increase computing power of the machine (EXPENSIVE)
+	scalling horizontally : increase number of processing nodes (makes a cluster)
+	a user may deal with a cluster as a single node 
+	a cluster manages itself to distribute tasks between nodes (master nodes manages the cluster)
+
+	gigabytes : ERP 
+	Terabytes : CRM 
+	Petabytes : WEB 
+	Exabytes : bigdata , sensors ......
+
+	charactaristics of BIG data : 3V's
+	Volume : size of the data
+		factors increasing the volume of data : 
+			transactions , datastreaming from social media and increasing the number of sensors and machines connected
+		problems : 
+			Storage costs , relevance : determined through analysis (expensive) 
+
+	velocity : how much data is coming  to the company. (rate at which new data is generated)
+		MB GB TB ....
+		problems with velocity : 
+			reacting quickly to benefit from data.
+			inconsistent data flow with peaks Daily or event-triggered.
+
+
+	variety : types of data (structured , unstrcutured, semi-..)
+		structured : SQL 
+		semi-structured: JSON ,XML 
+		problems : 
+			how to gather data afrom heterogenic datatypes, link data and cleanse  data
+			connect and build relations between 
+
+
+Threats 
+	lakes of data : data that are not connected and hard to integrate
+
+Hadoop : makes datalakes centralized , and eases the analysis of data and allows distrbiuted proccessing using simple programming models , can scale out form single server to thousnads of machine 
+hardware indepentent : doesnot rely on hrdware to provide high availability 
+
+hadoop core : storage + compute
+	YARN:managaes resources (CPU and RAM)
+	HDFS : manages distribued storage 
+
+
+___________________________________
+lecture 2 : 
+horton works sandbox : ready-made disk image for simulation 
+support microsoft azure and AWS 
