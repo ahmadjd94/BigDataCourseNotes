@@ -68,3 +68,36 @@ ___________________________________
 lecture 2 : 
 horton works sandbox : ready-made disk image for simulation 
 support microsoft azure and AWS 
+___________________________________
+
+lecture 3 :  hadoop supports solr
+
+machine learning : mahoot : based on hadoop 1 : bootleneck  in disk I/O
+Mlib supported in hortonworks , support scala an python
+
+why choose bigdata : because of bussiness outcomes : 
+	data discovery
+
+ETL : extract, transform, load :
+	extract data from somewhere 
+	transform to some usable form 
+	load into cluster
+transformation has the trend of predictive analysis
+requires experts and depeneds on machine learning
+why are you so retarded ?
+because i can #motivation_speech
+RETARD
+E
+T
+A
+R
+D
+
+
+hive : semi-sql command 
+spark : in-memory data processing 
+SQoop : can be used to integrate strcutred data into hadoop
+storm : real time access
+ambari : cluster mngmnt
+
+
