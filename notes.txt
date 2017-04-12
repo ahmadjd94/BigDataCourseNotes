@@ -101,3 +101,33 @@ storm : real time access
 ambari : cluster mngmnt
 
 
+
+YARN : benefits :
+
+
+______________________________________
+lecture 5
+
+
+
+commands : scp , secure copy 
+example :
+	scp -P 2222 1.txt root@192.168.126.128:/root
+	the previous command copies the file to the LFS (linux file system)
+hadoop commands begin with hdfs
+
+pcp : putty copy 
+
+____________________
+resetting admin password :
+admbari-admin-password-reset 
+
+_______________block size : default :128 MB
+
+
+examples : 
+file size: 200
+
+2 blocks : 128 MB block and 72MB  
+
+balancing clusters such that  3 replicas exist in the ecosystem 
