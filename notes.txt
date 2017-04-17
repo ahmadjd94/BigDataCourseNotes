@@ -131,3 +131,40 @@ file size: 200
 2 blocks : 128 MB block and 72MB  
 
 balancing clusters such that  3 replicas exist in the ecosystem 
+
+
+lecture 8 : 
+
+hadoop cluster : 
+two main componenets : master + worker nodes 
+
+hadoop core : YARN , HDFS 
+
+SQOOP : dealing with queries
+tez for organizing 
+zookeeper : management for processes
+oozie : scheduling
+ambary: installation for cluster
+KNOX : security
+solr : 
+kafka : real time analysis
+spark : scripting lamguage for in-memory application
+spark vs mapreduce : 
+spark is better for real time applications , mapreduce used for batch processing
+spark integrates Mlib (machine learning algorithms) and can be used with scala or python
+tensorflow : nural network library from google (Open-sourced)
+_________________
+HDFS is built on top of java 
+
+data access framework : 
+_____________________
+
+namenode (service): the most important node(requires high performance and availability)conatined with a master node
+master nodes: can be as many as the number of services
+backed up usually
+a cluster may have many master nodes but can only have one NameNode
+
+
+
+
+#read more : horton spark developer
